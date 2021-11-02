@@ -209,7 +209,7 @@ Using the miles function below do the following:
 */
 
 function miles(km){
-  return km * 0.621;  
+  return km * 0.621371;  
 }
 
 console.log(miles(2));
@@ -272,7 +272,7 @@ function grade(num){
   } else if (num >= 60) {
     return 'you got a D'
   } else if (num < 60) {
-    return 'you got a F oops!'
+    return 'you got an F'
   }
 }
 
