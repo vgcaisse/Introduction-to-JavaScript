@@ -186,8 +186,6 @@ function game(user, computer){
     return `you win!`;
   } else if (user === 'rock' && computer === 'scissors') {
     return `you win!`;
-  } else if (user === 'scissors' && computer === 'paper') {
-    return `you win!`;
   } else {
     return `you lose!`;
   }  
